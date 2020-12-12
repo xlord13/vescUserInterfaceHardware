@@ -1,0 +1,27 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP DSK-3R3H334T-HL
+D CAP 330MF -20% +80% 3.3V SMD
+K
+F http://www.elna.co.jp/en/capacitor/double_layer/catalog/pdf/ds_e.pdf
+$ENDCMP
+#
+$CMP 2173157-3
+D Splash Proof Micro USB Assy B-Type
+K
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F2173157%7FA1%7Fpdf%7FEnglish%7FENG_CD_2173157_A1_2173157-C_revA1.pdf%7F2173157-3
+$ENDCMP
+#
+$CMP 52435-3071
+D MOLEX - 52435-3071 - SOCKET ZIF, 0.5MM, 30WAY
+K
+F 
+$ENDCMP
+#
+#End Doc Library

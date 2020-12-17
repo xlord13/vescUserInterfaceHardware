@@ -1663,7 +1663,7 @@ U 1 1 5FD97606
 P 10800 3475
 F 0 "J4" H 10828 3501 50  0000 L CNN
 F 1 "Conn_01x09_Female" H 10828 3410 50  0000 L CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x09_P1.27mm_Vertical" H 10800 3475 50  0001 C CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x09_P2.00mm_Vertical" H 10800 3475 50  0001 C CNN
 F 3 "~" H 10800 3475 50  0001 C CNN
 	1    10800 3475
 	1    0    0    -1  

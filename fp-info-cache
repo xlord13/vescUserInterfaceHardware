@@ -1,4 +1,4 @@
-18634880971673202
+18634883797172625
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -75430,7 +75430,7 @@ SamacSys_Parts
 Connector
 0
 32
-32
+30
 SamacSys_Parts
 21731573
 2173157-3-2
@@ -75458,7 +75458,7 @@ Vertical_push_button
 
 0
 4
-4
+3
 Sensor
 Aosong_DHT11_5.5x12.0_P2.54mm
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/DHT11.pdf

@@ -142,17 +142,6 @@ Wire Wire Line
 Connection ~ 8175 4225
 Wire Wire Line
 	8175 4225 8225 4225
-$Comp
-L power:GND #PWR031
-U 1 1 5F5E2B52
-P 6550 2000
-F 0 "#PWR031" H 6550 1750 39  0001 C CNN
-F 1 "GND" H 6550 1875 39  0000 C CNN
-F 2 "" H 6550 2000 39  0001 C CNN
-F 3 "" H 6550 2000 39  0001 C CNN
-	1    6550 2000
-	1    0    0    -1  
-$EndComp
 NoConn ~ 7525 2225
 Wire Wire Line
 	9025 2525 8825 2525
@@ -301,7 +290,7 @@ U 1 1 5F905A97
 P 2450 6800
 F 0 "R13" H 2520 6846 39  0000 L CNN
 F 1 "R_PHOTO" H 2520 6755 39  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 2500 6550 39  0001 L CNN
+F 2 "OptoDevice:R_LDR_4.9x4.2mm_P2.54mm_Vertical" V 2500 6550 39  0001 L CNN
 F 3 "~" H 2450 6750 39  0001 C CNN
 	1    2450 6800
 	1    0    0    -1  
@@ -309,8 +298,8 @@ $EndComp
 Wire Wire Line
 	2450 6975 2450 6950
 NoConn ~ 7525 4025
-NoConn ~ 7525 3525
-NoConn ~ 8825 4025
+NoConn ~ 8825 3725
+NoConn ~ 7525 3225
 $Comp
 L Connector:Conn_01x04_Male J6
 U 1 1 5F9ABFAB
@@ -441,8 +430,6 @@ F 4 "4.7u" H 7350 1575 39  0000 C CNN "Field4"
 	1    7350 1500
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	7100 1925 7100 1875
 $Comp
 L power:+3.3V #PWR032
 U 1 1 5F8A9CCC
@@ -858,81 +845,6 @@ Wire Wire Line
 Wire Wire Line
 	6550 1450 6550 1400
 $Comp
-L Device:Crystal_GND24_Small Y1
-U 1 1 5F7C9C16
-P 6825 2000
-F 0 "Y1" V 6725 2025 39  0000 L CNN
-F 1 "Crystal_GND24_Small" V 6862 2144 39  0001 L CNN
-F 2 "Crystal:Crystal_SMD_Abracon_ABM3B-4Pin_5.0x3.2mm" H 6825 2000 39  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/2581422.pdf?_ga=2.29888511.1106248822.1601817720-706293543.1593275528&_gac=1.90918504.1601920666.CjwKCAjwiOv7BRBREiwAXHbv3Nre1ZRkFzw4o4_G1jayqOyIr5XBMbrn0P0vXxc_gtBymGv78yQuRBoCZ7kQAvD_BwE" H 6825 2000 39  0001 C CNN
-F 4 "8Mhz" V 6900 2075 28  0000 C CNN "Field4"
-F 5 "10ppm" V 6950 2100 28  0000 C CNN "Field5"
-	1    6825 2000
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C_Small C16
-U 1 1 5F7DB934
-P 6725 1875
-F 0 "C16" V 6625 1875 39  0000 C CNN
-F 1 "C_Small" V 6587 1875 39  0001 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6725 1875 39  0001 C CNN
-F 3 "~" H 6725 1875 39  0001 C CNN
-F 4 "15pf" V 6675 1800 28  0000 C CNN "Field4"
-F 5 "100v" V 6675 1950 28  0000 C CNN "Field5"
-	1    6725 1875
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C_Small C17
-U 1 1 5F7DEDB9
-P 6725 2125
-F 0 "C17" V 6825 2125 39  0000 C CNN
-F 1 "C_Small" V 6587 2125 39  0001 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6725 2125 39  0001 C CNN
-F 3 "~" H 6725 2125 39  0001 C CNN
-F 4 "15pf" V 6775 2050 28  0000 C CNN "Field4"
-F 5 "100v" V 6775 2200 28  0000 C CNN "Field5"
-	1    6725 2125
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR033
-U 1 1 5F8237D6
-P 6925 2000
-F 0 "#PWR033" H 6925 1750 39  0001 C CNN
-F 1 "GND" H 6925 1875 39  0000 C CNN
-F 2 "" H 6925 2000 39  0001 C CNN
-F 3 "" H 6925 2000 39  0001 C CNN
-	1    6925 2000
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	6825 1875 6825 1900
-Wire Wire Line
-	6825 2125 6825 2100
-Wire Wire Line
-	6625 1875 6625 2000
-Wire Wire Line
-	6625 2000 6725 2000
-Connection ~ 6625 2000
-Wire Wire Line
-	6625 2000 6625 2125
-Wire Wire Line
-	6625 2000 6550 2000
-Wire Wire Line
-	7100 2125 6825 2125
-Wire Wire Line
-	7100 2025 7100 2125
-Connection ~ 6825 2125
-Wire Wire Line
-	6825 1875 7100 1875
-Connection ~ 6825 1875
-Wire Wire Line
-	7525 1925 7100 1925
-Wire Wire Line
-	7100 2025 7525 2025
-$Comp
 L Device:R R6
 U 1 1 5F920E7A
 P 1700 2700
@@ -1209,7 +1121,7 @@ Text Label 1875 6700 1    39   ~ 0
 BUTTON_4
 Wire Wire Line
 	1875 6750 1875 6700
-Text Label 9025 2625 0    39   ~ 0
+Text Label 9025 3025 0    39   ~ 0
 BUTTON_2
 Text Label 7325 3825 2    39   ~ 0
 BUTTON_3
@@ -1217,9 +1129,9 @@ Text Label 7325 3925 2    39   ~ 0
 BUTTON_4
 Text Label 9025 2525 0    39   ~ 0
 BUTTON_1
-Text Label 7325 3625 2    39   ~ 0
+Text Label 7325 1925 2    39   ~ 0
 OLED_CS
-Text Label 7325 2725 2    39   ~ 0
+Text Label 7325 2025 2    39   ~ 0
 OLED_DC
 Text Label 7325 2925 2    39   ~ 0
 SPI1_SCK
@@ -1245,7 +1157,7 @@ Text Label 9025 2825 0    39   ~ 0
 USART2_RX
 Text Label 9025 2925 0    39   ~ 0
 ADC1
-Text Label 9025 3025 0    39   ~ 0
+Text Label 9025 3225 0    39   ~ 0
 ADC2
 Text Label 9025 3125 0    39   ~ 0
 PHOTO_RESISTOR
@@ -1265,7 +1177,7 @@ Wire Wire Line
 	8825 3825 9025 3825
 Text Label 7325 3425 2    39   ~ 0
 LIGHT_SW
-Text Label 7325 2825 2    39   ~ 0
+Text Label 9025 2625 0    39   ~ 0
 OLED_RST
 Text Label 950  3075 2    39   ~ 0
 LIGHT_SW
@@ -1343,7 +1255,7 @@ F 3 "" H 3400 3125 39  0001 C CNN
 	1    3400 3125
 	1    0    0    -1  
 $EndComp
-Text Label 9025 3325 0    39   ~ 0
+Text Label 7325 3525 2    39   ~ 0
 BUZZER
 Text Label 3000 2925 2    39   ~ 0
 BUZZER
@@ -1454,12 +1366,7 @@ Wire Wire Line
 Wire Wire Line
 	10575 4950 10675 4950
 Wire Wire Line
-	7525 2725 7325 2725
-Wire Wire Line
 	7325 3025 7525 3025
-Wire Wire Line
-	7525 2825 7325 2825
-NoConn ~ 8825 3225
 Text Label 7325 3025 2    39   ~ 0
 SPI1_MISO
 $Comp
@@ -1479,7 +1386,7 @@ Text Label 8675 5525 0    39   ~ 0
 SPI1_MOSI
 Text Label 8675 5425 0    39   ~ 0
 SPI1_SCK
-Text Label 7325 3225 2    39   ~ 0
+Text Label 9025 4025 0    39   ~ 0
 EXT_FLASH_CS
 Text Label 7875 5625 2    39   ~ 0
 EXT_FLASH_CS
@@ -1638,17 +1545,9 @@ Wire Wire Line
 	10150 1150 10450 1150
 Connection ~ 10450 1150
 NoConn ~ 8825 3625
-NoConn ~ 8825 3725
+NoConn ~ 8825 3325
 NoConn ~ 7525 3325
 NoConn ~ 7525 3725
-Wire Wire Line
-	7325 3225 7525 3225
-Wire Wire Line
-	7525 3625 7325 3625
-Wire Wire Line
-	9025 2625 8825 2625
-Wire Wire Line
-	8825 3325 9025 3325
 Wire Notes Line
 	4550 3600 525  3600
 Wire Notes Line
@@ -1861,4 +1760,19 @@ F 5 "1%" H 3200 3025 39  0001 C CNN "Field5"
 	1    3200 3025
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	9025 4025 8825 4025
+Wire Wire Line
+	7525 3525 7325 3525
+Wire Wire Line
+	8825 3225 9025 3225
+NoConn ~ 7525 3625
+Wire Wire Line
+	7525 1925 7325 1925
+Wire Wire Line
+	7525 2025 7325 2025
+NoConn ~ 7525 2725
+NoConn ~ 7525 2825
+Wire Wire Line
+	8825 2625 9025 2625
 $EndSCHEMATC

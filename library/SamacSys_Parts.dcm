@@ -24,4 +24,10 @@ K
 F 
 $ENDCMP
 #
+$CMP FAN5331SX
+D ON Semiconductor FAN5331SX, LED Driver, 3.3 V, 5 V, 5-Pin SOT-23
+K
+F https://www.onsemi.com/pub/Collateral/FAN5331-D.pdf
+$ENDCMP
+#
 #End Doc Library

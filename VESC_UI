@@ -1,57 +1,33 @@
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <title>KiCad BOM Example 5</title>
-    </head>
-    <body>
-    <h1>C:\projects\perso\vescUserInterfaceHardware\VESC_UI.sch</h1>
-    <p>11/12/2020 20:18:54</p>
-    <p>Eeschema (5.1.6)-1</p>
-    <p><b>Component Count:</b>79</p>
-    <table>
-    <tr><th style='width:640px'>Ref</th><th>Qnty</th><th>Value</th><th>Part</th><th>Footprint</th><th>Description</th><th>Vendor</th></tr>
-    <tr><td>C1</td><td>1</td><td>C_0003</td><td>VESC_UI-rescue:C_0003-DVB_C</td><td>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</td><td></td><td></td></tr>
-    <tr><td>C2, C13</td><td>2</td><td>C_0033</td><td>Device:C</td><td>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</td><td>Unpolarized capacitor</td><td></td></tr>
-    <tr><td>C3</td><td>1</td><td>C_0041</td><td>Device:C</td><td>Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder</td><td>Unpolarized capacitor</td><td></td></tr>
-    <tr><td>C4, C14</td><td>2</td><td>C_0036</td><td>Device:C</td><td>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</td><td>Unpolarized capacitor</td><td></td></tr>
-    <tr><td>C5, C11</td><td>2</td><td>C_0056</td><td>Device:C</td><td>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</td><td>Unpolarized capacitor</td><td></td></tr>
-    <tr><td>C6, C9, C10, C16, C17, C19, C20, C21</td><td>8</td><td>C_Small</td><td>Device:C_Small</td><td>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</td><td>Unpolarized capacitor, small symbol</td><td></td></tr>
-    <tr><td>C7</td><td>1</td><td>C_0013</td><td>VESC_UI-rescue:C_0013-DVB_C</td><td>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</td><td></td><td></td></tr>
-    <tr><td>C8</td><td>1</td><td>C_0036</td><td>VESC_UI-rescue:C_0036-DVB_C</td><td>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</td><td></td><td></td></tr>
-    <tr><td>C12, C15, C23, C24</td><td>4</td><td>C_0033</td><td>Device:C_Small</td><td>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</td><td>Unpolarized capacitor, small symbol</td><td></td></tr>
-    <tr><td>C18</td><td>1</td><td>4.7u</td><td>Device:C_Small</td><td>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</td><td>Unpolarized capacitor, small symbol</td><td></td></tr>
-    <tr><td>C22</td><td>1</td><td>CP_Small</td><td>Device:Battery_Cell</td><td>SamacSys_Parts:DSK3R3H334THL</td><td>Single-cell battery</td><td></td></tr>
-    <tr><td>D1, D2, D3, D4, D5, D6</td><td>6</td><td>LED_Small_ALT</td><td>Device:LED_Small_ALT</td><td>LED_THT:LED_D5.0mm_Clear</td><td>Light emitting diode, small symbol, filled shape</td><td></td></tr>
-    <tr><td>D7, D8</td><td>2</td><td>D_0022</td><td>Diode:1N4148WT</td><td>Diode_SMD:D_SOD-523</td><td>75V 0.15A Fast switching Diode, SOD-523</td><td></td></tr>
-    <tr><td>D9</td><td>1</td><td>D_0021</td><td>VESC_UI-rescue:D_0021-DVB_D</td><td>Diode_SMD:D_SOD-523</td><td></td><td></td></tr>
-    <tr><td>D10</td><td>1</td><td>D_Schottky_Small_ALT</td><td>Device:D_Schottky_Small_ALT</td><td>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</td><td>Schottky diode, small symbol, filled shape</td><td></td></tr>
-    <tr><td>J1, J2</td><td>2</td><td>Hall_SS443A</td><td>Connector:Conn_01x03_Female</td><td>Package_TO_SOT_THT:TO-92Flat</td><td>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
-    <tr><td>J3</td><td>1</td><td>Conn_01x07_Male</td><td>Connector:Conn_01x07_Male</td><td>Connector_JST:JST_PH_B7B-PH-K_1x07_P2.00mm_Vertical</td><td>Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
-    <tr><td>J5</td><td>1</td><td>Conn_01x05_Male</td><td>Connector:Conn_01x05_Male</td><td>Connector_JST:JST_PH_B5B-PH-K_1x05_P2.00mm_Vertical</td><td>Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
-    <tr><td>J6</td><td>1</td><td>Conn_01x04_Male</td><td>Connector:Conn_01x04_Male</td><td>Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical</td><td>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
-    <tr><td>J8, J9</td><td>2</td><td>Conn_01x02_Male</td><td>Connector:Conn_01x02_Male</td><td>Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical</td><td>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
-    <tr><td>JP1, JP2</td><td>2</td><td>Jumper_NC_Small</td><td>Device:Jumper_NC_Small</td><td>Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm</td><td>Jumper, normally closed, small symbol</td><td></td></tr>
-    <tr><td>K1</td><td>1</td><td>K_0051</td><td>VESC_UI-rescue:K_0051-DVB_K-DK3_GUI-PI-rescue</td><td>SamacSys_Parts:52435-3071</td><td></td><td></td></tr>
-    <tr><td>L1</td><td>1</td><td>L_0011</td><td>Device:L</td><td>Inductor_SMD:L_Coilcraft_LPS4018</td><td>Inductor</td><td></td></tr>
-    <tr><td>L2</td><td>1</td><td>MMZ1608B121C</td><td>Device:L_Core_Iron_Small</td><td>Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder</td><td>Inductor with iron core, small symbol</td><td></td></tr>
-    <tr><td>Q1, Q2</td><td>2</td><td>Q_0010-DVB_Q</td><td>VESC_UI-rescue:Q_0010-DVB_Q</td><td>Package_TO_SOT_SMD:SOT-23</td><td></td><td></td></tr>
-    <tr><td>R1, R2, R4, R6, R14, R19, R20</td><td>7</td><td>R_0020</td><td>Device:R</td><td>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</td><td>Resistor</td><td></td></tr>
-    <tr><td>R3, R5, R7, R9, R12, R16, R17, R18, R21, R22</td><td>10</td><td>R_Small</td><td>Device:R_Small</td><td>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</td><td>Resistor, small symbol</td><td></td></tr>
-    <tr><td>R8</td><td>1</td><td>R_0110</td><td>Device:R</td><td>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</td><td>Resistor</td><td></td></tr>
-    <tr><td>R10</td><td>1</td><td>R_0107</td><td>VESC_UI-rescue:R_0107-DVB_R</td><td>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</td><td></td><td></td></tr>
-    <tr><td>R11</td><td>1</td><td>R_0108</td><td>VESC_UI-rescue:R_0108-DVB_R</td><td>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</td><td></td><td></td></tr>
-    <tr><td>R13</td><td>1</td><td>R_PHOTO</td><td>Device:R_PHOTO</td><td>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical</td><td>Photoresistor</td><td></td></tr>
-    <tr><td>R15</td><td>1</td><td>R_0019</td><td>Device:R</td><td>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</td><td>Resistor</td><td></td></tr>
-    <tr><td>SW1, SW2, SW3, SW4</td><td>4</td><td>SW_Push</td><td>Switch:SW_Push</td><td>SamacSys_Parts:Vertical_push_button</td><td>Push button switch, generic, two pins</td><td></td></tr>
-    <tr><td>SW5</td><td>1</td><td>SW_Push</td><td>Switch:SW_Push</td><td>Button_Switch_SMD:SW_SPST_TL3305A</td><td>Push button switch, generic, two pins</td><td></td></tr>
-    <tr><td>U1</td><td>1</td><td>U_0076</td><td>VESC_UI-rescue:U_0076-DVB_U</td><td>Package_TO_SOT_SMD:SOT-23-5</td><td></td><td></td></tr>
-    <tr><td>U2</td><td>1</td><td>STM32F401CEUx</td><td>MCU_ST_STM32F4:STM32F401CEUx</td><td>Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm</td><td>ARM Cortex-M4 MCU, 512KB flash, 96KB RAM, 84MHz, 1.7-3.6V, 36 GPIO, UFQFPN-48</td><td></td></tr>
-    <tr><td>U3</td><td>1</td><td>M95M04-DR</td><td>Memory_EEPROM:M95256-WMN6P</td><td>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</td><td>SPI EEPROM, 256Kb (32K x 8), No Identification Page, 2.5 to 5.5V, SO8</td><td></td></tr>
-    <tr><td>Y1</td><td>1</td><td>Crystal_GND24_Small</td><td>Device:Crystal_GND24_Small</td><td>Crystal:Crystal_SMD_Abracon_ABM3B-4Pin_5.0x3.2mm</td><td>Four pin crystal, GND on pins 2 and 4, small symbol</td><td></td></tr><!--TABLEROW-->
-    </table>
-    </body>
-</html>
-    
+"Source:","C:\projects\perso\vescUserInterfaceHardware\VESC_UI.sch"
+"Date:","23/12/2020 22:49:13"
+"Tool:","Eeschema (5.1.6)-1"
+"Generator:","C:\Program Files\KiCad\bin\scripting\plugins/bom_csv_grouped_by_value_with_fp.py"
+"Component Count:","57"
+"Ref","Qnty","Value","Cmp name","Footprint","Description","Vendor"
+"C1, ","1","10n","C_Small","Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder","Unpolarized capacitor, small symbol",""
+"C2, ","1","10µF","C_0003-DVB_C","Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder","",""
+"C6, C9, C10, C12, C15, C19, C20, C21, C23, C24, ","10","100n","C_Small","Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder","Unpolarized capacitor, small symbol",""
+"C18, ","1","4.7u","C_Small","Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder","Unpolarized capacitor, small symbol",""
+"C22, ","1","SUpercap 330mF","Battery_Cell","SamacSys_Parts:DSK3R3H334THL","Single-cell battery",""
+"D1, D2, D3, D4, D5, D6, ","6","LED 5mm - White","LED_Small_ALT","LED_THT:LED_D5.0mm_Horizontal_O1.27mm_Z3.0mm_Clear","Light emitting diode, small symbol, filled shape",""
+"D10, ","1","Schottky CD0603-B0240R","D_Schottky_Small_ALT","Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder","Schottky diode, small symbol, filled shape",""
+"J1, J2, ","2","Hall_SS443A","Conn_01x03_Female","Package_TO_SOT_THT:TO-92Flat","Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)",""
+"J3, ","1","Conn_01x07_Male","Conn_01x07_Male","Connector_JST:JST_PH_B7B-PH-K_1x07_P2.00mm_Vertical","Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)",""
+"J4, ","1","Conn_01x09_Female","Conn_01x09_Female","Connector_PinHeader_2.00mm:PinHeader_1x09_P2.00mm_Vertical","Generic connector, single row, 01x09, script generated (kicad-library-utils/schlib/autogen/connector/)",""
+"J5, ","1","Conn_01x05_Male","Conn_01x05_Male","Connector_JST:JST_PH_B5B-PH-K_1x05_P2.00mm_Vertical","Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)",""
+"J6, ","1","Conn_01x04_Male","Conn_01x04_Male","Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical","Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)",""
+"J8, J9, ","2","Conn_01x02_Male","Conn_01x02_Male","Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical","Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",""
+"JP1, JP2, ","2","Jumper_NC_Small","Jumper_NC_Small","Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm","Jumper, normally closed, small symbol",""
+"L2, ","1","MMZ1608B121CTDH5","L_Core_Iron_Small","Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder","Inductor with iron core, small symbol",""
+"Q1, Q2, ","2","Mosfet IRLML2060TRPBF","IRLML2060","Package_TO_SOT_SMD:SOT-23","1.2A Id, 60V Vds, N-Channel MOSFET, 480mOhm Rds, SOT-23",""
+"R1, R4, R6, ","3","30","R","Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder","Resistor",""
+"R2, ","1","100k","R","Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder","Resistor",""
+"R3, R5, R7, R9, R12, ","5","100","R_Small","Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder","Resistor, small symbol",""
+"R8, ","1","1M","R_Small","Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder","Resistor, small symbol",""
+"R13, ","1","NSL-19M51","R_PHOTO","OptoDevice:R_LDR_4.9x4.2mm_P2.54mm_Vertical","Photoresistor",""
+"R14, R21, R22, ","3","10k","R_Small","Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder","Resistor, small symbol",""
+"R17, R18, ","2","0","R_Small","Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder","Resistor, small symbol",""
+"SW1, SW2, SW3, SW4, ","4","Vertical push button","SW_Push","SamacSys_Parts:Vertical_push_button","Push button switch, generic, two pins",""
+"SW5, ","1","Push button","SW_Push","Button_Switch_SMD:SW_SPST_B3U-1000P-B","Push button switch, generic, two pins",""
+"U2, ","1","STM32F401CEU6","STM32F401CEUx","Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm","ARM Cortex-M4 MCU, 512KB flash, 96KB RAM, 84MHz, 1.7-3.6V, 36 GPIO, UFQFPN-48",""
+"U3, ","1","M95M04-DR","M95256-WMN6P","Package_SO:SOIC-8_3.9x4.9mm_P1.27mm","SPI EEPROM, 256Kb (32K x 8), No Identification Page, 2.5 to 5.5V, SO8",""

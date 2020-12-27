@@ -2,11 +2,11 @@
 <export version="D">
   <design>
     <source>C:\projects\perso\vescUserInterfaceHardware\ScreenBoard\ScreenBoard.sch</source>
-    <date>12/12/2020 01:14:00</date>
+    <date>27/12/2020 15:08:48</date>
     <tool>Eeschema (5.1.6)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
-        <title/>
+        <title>Etwow VESC Screen board</title>
         <company/>
         <rev/>
         <date/>
@@ -19,135 +19,21 @@
     </sheet>
   </design>
   <components>
-    <comp ref="K1">
-      <value>K_0051</value>
-      <footprint>SamacSys_Parts:52435-3071</footprint>
-      <datasheet>http://www.farnell.com/datasheets/1875032.pdf?_ga=2.157046779.1318262782.1499092899-695518372.1495123464</datasheet>
-      <fields>
-        <field name="Field4">52435-3071</field>
-        <field name="Field5">30p</field>
-        <field name="Field6">fem</field>
-        <field name="Field7">RA</field>
-      </fields>
-      <libsource lib="VESC_UI-rescue" part="K_0051-DVB_K-DK3_GUI-PI-rescue" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5CB72034</tstamp>
-    </comp>
-    <comp ref="C1">
-      <value>C_0003</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
-      <datasheet>generic</datasheet>
-      <fields>
-        <field name="Field4">CER</field>
-        <field name="Field5">10µF</field>
-        <field name="Field6">25V</field>
-        <field name="Field7">X5R</field>
-        <field name="Field8">10%</field>
-      </fields>
-      <libsource lib="VESC_UI-rescue" part="C_0003-DVB_C" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5CB74AD2</tstamp>
-    </comp>
-    <comp ref="L1">
-      <value>L_0011</value>
-      <footprint>Inductor_SMD:L_Coilcraft_LPS4018</footprint>
-      <datasheet>http://www.farnell.com/datasheets/1805324.pdf?_ga=2.69630928.1318262782.1499092899-695518372.1495123464</datasheet>
-      <fields>
-        <field name="Field4">LPS4018-682MRB</field>
-        <field name="Field5">1.3A</field>
-        <field name="Field6">COIL</field>
-        <field name="Field7">6.8µH</field>
-      </fields>
-      <libsource lib="Device" part="L" description="Inductor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5CB74D5E</tstamp>
-    </comp>
-    <comp ref="D9">
-      <value>D_0021</value>
-      <footprint>Diode_SMD:D_SOD-523</footprint>
-      <datasheet>http://www.farnell.com/datasheets/2304408.pdf?_ga=2.70745296.1318262782.1499092899-695518372.1495123464</datasheet>
-      <fields>
-        <field name="Field4">MBR0530</field>
-        <field name="Field5">500mA</field>
-        <field name="Field6">SCHOTTKY</field>
-        <field name="Field7">1-Chan</field>
-        <field name="Field8">30Vr</field>
-      </fields>
-      <libsource lib="VESC_UI-rescue" part="D_0021-DVB_D" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5CB74F7A</tstamp>
-    </comp>
-    <comp ref="R10">
-      <value>R_0107</value>
+    <comp ref="R4">
+      <value>600k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <datasheet>generic</datasheet>
       <fields>
-        <field name="Field4">1.5M</field>
-        <field name="Field5">5%</field>
-        <field name="Field6">100mW</field>
-      </fields>
-      <libsource lib="VESC_UI-rescue" part="R_0107-DVB_R" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5CB751B6</tstamp>
-    </comp>
-    <comp ref="C7">
-      <value>C_0013</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
-      <datasheet>generic</datasheet>
-      <fields>
-        <field name="Field4">CER</field>
-        <field name="Field5">22pF</field>
-        <field name="Field6">50V</field>
-        <field name="Field7">COG/NPO</field>
-        <field name="Field8">5%</field>
-      </fields>
-      <libsource lib="VESC_UI-rescue" part="C_0013-DVB_C" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5CB75550</tstamp>
-    </comp>
-    <comp ref="C8">
-      <value>C_0036</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
-      <datasheet>generic</datasheet>
-      <fields>
-        <field name="Field4">CER</field>
-        <field name="Field5">4.7µF</field>
-        <field name="Field6">25V</field>
-        <field name="Field7">X5R</field>
-        <field name="Field8">10%</field>
-      </fields>
-      <libsource lib="VESC_UI-rescue" part="C_0036-DVB_C" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5CB7581C</tstamp>
-    </comp>
-    <comp ref="R11">
-      <value>R_0108</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
-      <datasheet>generic</datasheet>
-      <fields>
-        <field name="Field4">210k</field>
+        <field name="Field4">600k</field>
         <field name="Field5">1%</field>
         <field name="Field6">100mW</field>
       </fields>
-      <libsource lib="VESC_UI-rescue" part="R_0108-DVB_R" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5CB75A4C</tstamp>
-    </comp>
-    <comp ref="R15">
-      <value>R_0019</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
-      <datasheet>generic</datasheet>
-      <fields>
-        <field name="Field4">562k</field>
-        <field name="Field5">1%</field>
-        <field name="Field6">100mW</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CB7978B</tstamp>
     </comp>
-    <comp ref="D7">
-      <value>D_0022</value>
+    <comp ref="D1">
+      <value>1N4148WT</value>
       <footprint>Diode_SMD:D_SOD-523</footprint>
       <datasheet>http://www.farnell.com/datasheets/2287915.pdf?_ga=2.163920311.989128744.1508231426-421346633.1483631847</datasheet>
       <fields>
@@ -161,8 +47,8 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CB88D23</tstamp>
     </comp>
-    <comp ref="D8">
-      <value>D_0022</value>
+    <comp ref="D2">
+      <value>1N4148WT</value>
       <footprint>Diode_SMD:D_SOD-523</footprint>
       <datasheet>http://www.farnell.com/datasheets/2287915.pdf?_ga=2.163920311.989128744.1508231426-421346633.1483631847</datasheet>
       <fields>
@@ -177,7 +63,7 @@
       <tstamp>5CB8934D</tstamp>
     </comp>
     <comp ref="C2">
-      <value>C_0033</value>
+      <value>100nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <datasheet>generic</datasheet>
       <fields>
@@ -187,12 +73,12 @@
         <field name="Field7">X5R</field>
         <field name="Field8">10%</field>
       </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CB8C33C</tstamp>
     </comp>
     <comp ref="C3">
-      <value>C_0041</value>
+      <value>10µF</value>
       <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
       <datasheet>generic</datasheet>
       <fields>
@@ -202,12 +88,12 @@
         <field name="Field7">X5R</field>
         <field name="Field8">20%</field>
       </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CB8C86E</tstamp>
     </comp>
     <comp ref="C5">
-      <value>C_0056</value>
+      <value>1µF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <datasheet>generic</datasheet>
       <fields>
@@ -217,12 +103,12 @@
         <field name="Field7">X7R</field>
         <field name="Field8">10%</field>
       </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CB94754</tstamp>
     </comp>
     <comp ref="C4">
-      <value>C_0036</value>
+      <value>4.7µF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <datasheet>generic</datasheet>
       <fields>
@@ -232,12 +118,12 @@
         <field name="Field7">X5R</field>
         <field name="Field8">10%</field>
       </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CB99F4D</tstamp>
     </comp>
-    <comp ref="C14">
-      <value>C_0036</value>
+    <comp ref="C10">
+      <value>4.7µF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <datasheet>generic</datasheet>
       <fields>
@@ -247,12 +133,12 @@
         <field name="Field7">X5R</field>
         <field name="Field8">10%</field>
       </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CBB21D0</tstamp>
     </comp>
-    <comp ref="C13">
-      <value>C_0033</value>
+    <comp ref="C9">
+      <value>100nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <datasheet>generic</datasheet>
       <fields>
@@ -262,12 +148,12 @@
         <field name="Field7">X5R</field>
         <field name="Field8">10%</field>
       </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CBB222E</tstamp>
     </comp>
-    <comp ref="C11">
-      <value>C_0056</value>
+    <comp ref="C8">
+      <value>1µF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <datasheet>generic</datasheet>
       <fields>
@@ -277,39 +163,12 @@
         <field name="Field7">X7R</field>
         <field name="Field8">10%</field>
       </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CBB5CB6</tstamp>
     </comp>
-    <comp ref="J3">
-      <value>Conn_01x08_Male</value>
-      <footprint>Connector_PinHeader_1.00mm:PinHeader_1x08_P1.00mm_Vertical</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Name">Main</field>
-      </fields>
-      <libsource lib="Connector" part="Conn_01x08_Male" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5F5512A1</tstamp>
-    </comp>
-    <comp ref="U1">
-      <value>U_0076</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
-      <datasheet>http://www.ti.com/lit/ds/symlink/tps61040.pdf</datasheet>
-      <fields>
-        <field name="Field4">TPS61040DBVR</field>
-        <field name="Field5">REGULATOR</field>
-        <field name="Field6">DC/DC BOOST/EN</field>
-        <field name="Field7">1.8V to 6Vcc</field>
-        <field name="Field8">ADJ 1.8V to 1Vout</field>
-        <field name="Field9">400mA</field>
-      </fields>
-      <libsource lib="VESC_UI-rescue" part="U_0076-DVB_U" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5CB7485A</tstamp>
-    </comp>
-    <comp ref="R8">
-      <value>R_0110</value>
+    <comp ref="R1">
+      <value>56 Ohm</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <datasheet>generic</datasheet>
       <fields>
@@ -317,21 +176,184 @@
         <field name="Field5">5%</field>
         <field name="Field6">100mW</field>
       </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CB89EE2</tstamp>
     </comp>
+    <comp ref="K1">
+      <value>OLED connector</value>
+      <footprint>SamacSys_Parts:52435-3071</footprint>
+      <datasheet>http://www.farnell.com/datasheets/1875032.pdf?_ga=2.157046779.1318262782.1499092899-695518372.1495123464</datasheet>
+      <fields>
+        <field name="Field4">52435-3071</field>
+        <field name="Field5">30p</field>
+        <field name="Field6">fem</field>
+        <field name="Field7">RA</field>
+      </fields>
+      <libsource lib="VESC_UI-rescue" part="K_0051-DVB_K-DK3_GUI-PI-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CB72034</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>4.7µF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field4">CER</field>
+        <field name="Field6">25V</field>
+        <field name="Field7">X5R</field>
+        <field name="Field8">10%</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE8FC05</tstamp>
+    </comp>
+    <comp ref="IC1">
+      <value>FAN5331SX</value>
+      <footprint>SOT95P280X145-5N</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/FAN5331-D.pdf</datasheet>
+      <fields>
+        <field name="Description">ON Semiconductor FAN5331SX, LED Driver, 3.3 V, 5 V, 5-Pin SOT-23</field>
+        <field name="Height">1.45</field>
+        <field name="Manufacturer_Name">ON Semiconductor</field>
+        <field name="Manufacturer_Part_Number">FAN5331SX</field>
+        <field name="Mouser Part Number">512-FAN5331SX</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/ON-Semiconductor-Fairchild/FAN5331SX?qs=nW0pe8qlIZjlw9E%252BVfO%2Fsw%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="FAN5331SX" description="ON Semiconductor FAN5331SX, LED Driver, 3.3 V, 5 V, 5-Pin SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE9269D</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>10µH</value>
+      <footprint>Inductor_SMD:L_Coilcraft_LPS5030</footprint>
+      <fields>
+        <field name="Field4">LPS5030-103MRB</field>
+        <field name="Field5">1.4A</field>
+        <field name="Field6">COIL</field>
+      </fields>
+      <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE9E5AD</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FEAB19F</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>MBRS130LT3G</value>
+      <footprint>Diode_SMD:D_SMB_Handsoldering</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2353935.pdf</datasheet>
+      <libsource lib="Device" part="D_Schottky_ALT" description="Schottky diode, filled shape"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FEABF79</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FEB9372</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>4.7µF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field4">CER</field>
+        <field name="Field6">25V</field>
+        <field name="Field7">X5R</field>
+        <field name="Field8">10%</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FEC1E2C</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>120pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field4">CER</field>
+        <field name="Field6">25V</field>
+        <field name="Field7">X5R</field>
+        <field name="Field8">10%</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FEF5140</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Micro_SD_Card</value>
+      <footprint>SamacSys_Parts:693072010801</footprint>
+      <datasheet>http://katalog.we-online.de/em/datasheet/693072010801.pdf</datasheet>
+      <libsource lib="Connector" part="Micro_SD_Card" description="Micro SD Card Socket"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FF08530</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>10µF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field4">CER</field>
+        <field name="Field6">25V</field>
+        <field name="Field7">X5R</field>
+        <field name="Field8">10%</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FF429EF</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_02x05_Male</value>
+      <footprint>Connector_PinHeader_2.00mm:PinHeader_2x05_P2.00mm_Vertical_SMD</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2877941.pdf</datasheet>
+      <fields>
+        <field name="Name">Main</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x05_Odd_Even" description="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F5512A1</tstamp>
+    </comp>
   </components>
   <libparts>
-    <libpart lib="Connector" part="Conn_01x08_Male">
-      <description>Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
-      <docs>~</docs>
+    <libpart lib="Connector" part="Micro_SD_Card">
+      <description>Micro SD Card Socket</description>
+      <docs>http://katalog.we-online.de/em/datasheet/693072010801.pdf</docs>
       <footprints>
-        <fp>Connector*:*_1x??_*</fp>
+        <fp>microSD*</fp>
       </footprints>
       <fields>
         <field name="Reference">J</field>
-        <field name="Value">Conn_01x08_Male</field>
+        <field name="Value">Micro_SD_Card</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DAT2" type="BiDi"/>
+        <pin num="2" name="DAT3/CD" type="BiDi"/>
+        <pin num="3" name="CMD" type="input"/>
+        <pin num="4" name="VDD" type="power_in"/>
+        <pin num="5" name="CLK" type="input"/>
+        <pin num="6" name="VSS" type="power_in"/>
+        <pin num="7" name="DAT0" type="BiDi"/>
+        <pin num="8" name="DAT1" type="BiDi"/>
+        <pin num="9" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x05_Odd_Even">
+      <description>Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x05_Odd_Even</field>
       </fields>
       <pins>
         <pin num="1" name="Pin_1" type="passive"/>
@@ -342,25 +364,45 @@
         <pin num="6" name="Pin_6" type="passive"/>
         <pin num="7" name="Pin_7" type="passive"/>
         <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Device" part="C">
-      <description>Unpolarized capacitor</description>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
       <docs>~</docs>
       <footprints>
         <fp>C_*</fp>
       </footprints>
       <fields>
         <field name="Reference">C</field>
-        <field name="Value">C</field>
+        <field name="Value">C_Small</field>
       </fields>
       <pins>
         <pin num="1" name="~" type="passive"/>
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Device" part="L">
-      <description>Inductor</description>
+    <libpart lib="Device" part="D_Schottky_ALT">
+      <description>Schottky diode, filled shape</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky_ALT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L_Small">
+      <description>Inductor, small symbol</description>
       <docs>~</docs>
       <footprints>
         <fp>Choke_*</fp>
@@ -370,22 +412,22 @@
       </footprints>
       <fields>
         <field name="Reference">L</field>
-        <field name="Value">L</field>
+        <field name="Value">L_Small</field>
       </fields>
       <pins>
-        <pin num="1" name="1" type="passive"/>
-        <pin num="2" name="2" type="passive"/>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Device" part="R">
-      <description>Resistor</description>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
       <docs>~</docs>
       <footprints>
         <fp>R_*</fp>
       </footprints>
       <fields>
         <field name="Reference">R</field>
-        <field name="Value">R</field>
+        <field name="Value">R_Small</field>
       </fields>
       <pins>
         <pin num="1" name="~" type="passive"/>
@@ -413,68 +455,27 @@
         <pin num="2" name="A" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="VESC_UI-rescue" part="C_0003-DVB_C">
+    <libpart lib="SamacSys_Parts" part="FAN5331SX">
+      <description>ON Semiconductor FAN5331SX, LED Driver, 3.3 V, 5 V, 5-Pin SOT-23</description>
+      <docs>https://www.onsemi.com/pub/Collateral/FAN5331-D.pdf</docs>
       <fields>
-        <field name="Reference">C</field>
-        <field name="Value">C_0003-DVB_C</field>
-        <field name="Footprint">DVB_Capacitors_Ceramic:C_0603</field>
-        <field name="Field4">CER</field>
-        <field name="Field5">10µF</field>
-        <field name="Field6">25V</field>
-        <field name="Field7">X5R</field>
-        <field name="Field8">10%</field>
+        <field name="Reference">IC</field>
+        <field name="Value">FAN5331SX</field>
+        <field name="Footprint">SOT95P280X145-5N</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/FAN5331-D.pdf</field>
+        <field name="Description">ON Semiconductor FAN5331SX, LED Driver, 3.3 V, 5 V, 5-Pin SOT-23</field>
+        <field name="Height">1.45</field>
+        <field name="Mouser Part Number">512-FAN5331SX</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/ON-Semiconductor-Fairchild/FAN5331SX?qs=nW0pe8qlIZjlw9E%252BVfO%2Fsw%3D%3D</field>
+        <field name="Manufacturer_Name">ON Semiconductor</field>
+        <field name="Manufacturer_Part_Number">FAN5331SX</field>
       </fields>
       <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="VESC_UI-rescue" part="C_0013-DVB_C">
-      <fields>
-        <field name="Reference">C</field>
-        <field name="Value">C_0013-DVB_C</field>
-        <field name="Footprint">DVB_Capacitors_Ceramic:C_0402</field>
-        <field name="Field4">CER</field>
-        <field name="Field5">22pF</field>
-        <field name="Field6">50V</field>
-        <field name="Field7">COG/NPO</field>
-        <field name="Field8">5%</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="VESC_UI-rescue" part="C_0036-DVB_C">
-      <fields>
-        <field name="Reference">C</field>
-        <field name="Value">C_0036-DVB_C</field>
-        <field name="Footprint">DVB_Capacitors_Ceramic:C_0603</field>
-        <field name="Field4">CER</field>
-        <field name="Field5">4.7µF</field>
-        <field name="Field6">25V</field>
-        <field name="Field7">X5R</field>
-        <field name="Field8">10%</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="VESC_UI-rescue" part="D_0021-DVB_D">
-      <fields>
-        <field name="Reference">D</field>
-        <field name="Value">D_0021-DVB_D</field>
-        <field name="Footprint">DVB_Diodes:D_SOD-123</field>
-        <field name="Field4">MBR0530</field>
-        <field name="Field5">500mA</field>
-        <field name="Field6">SCHOTTKY</field>
-        <field name="Field7">1-Chan</field>
-        <field name="Field8">30Vr</field>
-      </fields>
-      <pins>
-        <pin num="1" name="K" type="passive"/>
-        <pin num="2" name="A" type="passive"/>
+        <pin num="1" name="SW" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="FB" type="passive"/>
+        <pin num="4" name="~SHDN" type="passive"/>
+        <pin num="5" name="VIN" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="VESC_UI-rescue" part="K_0051-DVB_K-DK3_GUI-PI-rescue">
@@ -521,58 +522,13 @@
         <pin num="30" name="NC(GND)" type="input"/>
       </pins>
     </libpart>
-    <libpart lib="VESC_UI-rescue" part="R_0107-DVB_R">
-      <fields>
-        <field name="Reference">R</field>
-        <field name="Value">R_0107-DVB_R</field>
-        <field name="Footprint">DVB_Resistors:R_0402</field>
-        <field name="Field4">1.5M</field>
-        <field name="Field5">5%</field>
-        <field name="Field6">100mW</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="VESC_UI-rescue" part="R_0108-DVB_R">
-      <fields>
-        <field name="Reference">R</field>
-        <field name="Value">R_0108-DVB_R</field>
-        <field name="Footprint">DVB_Resistors:R_0402</field>
-        <field name="Field4">210k</field>
-        <field name="Field5">1%</field>
-        <field name="Field6">100mW</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="VESC_UI-rescue" part="U_0076-DVB_U">
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">U_0076-DVB_U</field>
-        <field name="Footprint">DVB_SOT:SOT_23-5</field>
-        <field name="Field4">TPS61040DBVR</field>
-        <field name="Field5">REGULATOR</field>
-        <field name="Field6">DC/DC BOOST/EN</field>
-        <field name="Field7">1.8V to 6Vcc</field>
-        <field name="Field8">ADJ 1.8V to 1Vout</field>
-        <field name="Field9">400mA</field>
-      </fields>
-      <pins>
-        <pin num="1" name="SW" type="input"/>
-        <pin num="2" name="GND" type="input"/>
-        <pin num="3" name="FB" type="input"/>
-        <pin num="4" name="EN" type="input"/>
-        <pin num="5" name="VIN" type="power_in"/>
-      </pins>
-    </libpart>
   </libparts>
   <libraries>
     <library logical="Connector">
       <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
     </library>
     <library logical="Device">
       <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
@@ -580,135 +536,157 @@
     <library logical="Diode">
       <uri>C:\Program Files\KiCad\share\kicad\library/Diode.lib</uri>
     </library>
+    <library logical="SamacSys_Parts">
+      <uri>C:/projects/perso/vescUserInterfaceHardware/library/SamacSys_Parts.lib</uri>
+    </library>
     <library logical="VESC_UI-rescue">
-      <uri>C:\projects\perso\vescUserInterfaceHardware\VESC_UI-rescue.lib</uri>
+      <uri>C:/projects/perso/vescUserInterfaceHardware/VESC_UI-rescue.lib</uri>
     </library>
   </libraries>
   <nets>
     <net code="1" name="+12V">
+      <node ref="K1" pin="2"/>
       <node ref="C3" pin="1"/>
       <node ref="C2" pin="2"/>
-      <node ref="J3" pin="1"/>
-      <node ref="K1" pin="2"/>
-      <node ref="C8" pin="1"/>
-      <node ref="C7" pin="1"/>
-      <node ref="R10" pin="1"/>
-      <node ref="D9" pin="1"/>
-    </net>
-    <net code="2" name="/OLED_CS">
-      <node ref="J3" pin="6"/>
-      <node ref="K1" pin="19"/>
-    </net>
-    <net code="3" name="+3V3">
-      <node ref="C11" pin="1"/>
-      <node ref="K1" pin="26"/>
-      <node ref="K1" pin="4"/>
-      <node ref="J3" pin="2"/>
-      <node ref="C5" pin="1"/>
-    </net>
-    <net code="4" name="Net-(K1-Pad23)">
-      <node ref="K1" pin="23"/>
-    </net>
-    <net code="5" name="Net-(K1-Pad24)">
-      <node ref="K1" pin="24"/>
-    </net>
-    <net code="6" name="Net-(D9-Pad2)">
-      <node ref="U1" pin="1"/>
-      <node ref="L1" pin="2"/>
-      <node ref="D9" pin="2"/>
-    </net>
-    <net code="7" name="Net-(K1-Pad6)">
-      <node ref="K1" pin="6"/>
-    </net>
-    <net code="8" name="Net-(K1-Pad29)">
-      <node ref="K1" pin="29"/>
-    </net>
-    <net code="9" name="Net-(K1-Pad12)">
-      <node ref="K1" pin="12"/>
-    </net>
-    <net code="10" name="Net-(K1-Pad22)">
-      <node ref="R15" pin="2"/>
-      <node ref="K1" pin="22"/>
-    </net>
-    <net code="11" name="Net-(K1-Pad25)">
-      <node ref="K1" pin="25"/>
-    </net>
-    <net code="12" name="GND">
-      <node ref="K1" pin="18"/>
-      <node ref="K1" pin="17"/>
-      <node ref="C4" pin="2"/>
-      <node ref="K1" pin="16"/>
-      <node ref="K1" pin="15"/>
-      <node ref="K1" pin="11"/>
-      <node ref="K1" pin="10"/>
-      <node ref="R15" pin="1"/>
-      <node ref="C11" pin="2"/>
-      <node ref="D8" pin="1"/>
-      <node ref="K1" pin="30"/>
-      <node ref="K1" pin="7"/>
-      <node ref="K1" pin="8"/>
-      <node ref="C5" pin="2"/>
-      <node ref="C14" pin="2"/>
-      <node ref="C13" pin="1"/>
-      <node ref="K1" pin="28"/>
-      <node ref="C3" pin="2"/>
-      <node ref="K1" pin="1"/>
-      <node ref="C2" pin="1"/>
-      <node ref="U1" pin="2"/>
-      <node ref="K1" pin="9"/>
-      <node ref="J3" pin="3"/>
-      <node ref="C8" pin="2"/>
-      <node ref="C1" pin="1"/>
-      <node ref="R11" pin="2"/>
-    </net>
-    <net code="13" name="Net-(K1-Pad5)">
-      <node ref="R8" pin="1"/>
-      <node ref="K1" pin="5"/>
-    </net>
-    <net code="14" name="+5V">
-      <node ref="C1" pin="2"/>
-      <node ref="L1" pin="1"/>
-      <node ref="U1" pin="5"/>
-      <node ref="U1" pin="4"/>
-    </net>
-    <net code="15" name="Net-(D7-Pad2)">
-      <node ref="R8" pin="2"/>
-      <node ref="D7" pin="2"/>
-    </net>
-    <net code="16" name="Net-(C7-Pad2)">
+      <node ref="D3" pin="1"/>
+      <node ref="R3" pin="2"/>
+      <node ref="J2" pin="1"/>
+      <node ref="C6" pin="2"/>
       <node ref="C7" pin="2"/>
-      <node ref="R10" pin="2"/>
-      <node ref="U1" pin="3"/>
-      <node ref="R11" pin="1"/>
     </net>
-    <net code="17" name="/SPI1_MOSI">
-      <node ref="K1" pin="13"/>
-      <node ref="J3" pin="4"/>
+    <net code="2" name="GND">
+      <node ref="C9" pin="1"/>
+      <node ref="C10" pin="2"/>
+      <node ref="K1" pin="7"/>
+      <node ref="C1" pin="1"/>
+      <node ref="K1" pin="18"/>
+      <node ref="C11" pin="1"/>
+      <node ref="K1" pin="8"/>
+      <node ref="C8" pin="2"/>
+      <node ref="K1" pin="9"/>
+      <node ref="K1" pin="30"/>
+      <node ref="K1" pin="1"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="K1" pin="10"/>
+      <node ref="C2" pin="1"/>
+      <node ref="K1" pin="11"/>
+      <node ref="C4" pin="2"/>
+      <node ref="K1" pin="15"/>
+      <node ref="K1" pin="16"/>
+      <node ref="K1" pin="28"/>
+      <node ref="K1" pin="17"/>
+      <node ref="D2" pin="1"/>
+      <node ref="R4" pin="1"/>
+      <node ref="J2" pin="3"/>
+      <node ref="C7" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="IC1" pin="2"/>
+      <node ref="J1" pin="6"/>
+      <node ref="J1" pin="9"/>
     </net>
-    <net code="18" name="/SPI1_SCK">
-      <node ref="J3" pin="5"/>
+    <net code="3" name="/SD_CS">
+      <node ref="J1" pin="2"/>
+      <node ref="J2" pin="10"/>
+    </net>
+    <net code="4" name="Net-(J1-Pad8)">
+      <node ref="J1" pin="8"/>
+    </net>
+    <net code="5" name="/SPI_SCK">
       <node ref="K1" pin="14"/>
+      <node ref="J2" pin="6"/>
+      <node ref="J1" pin="5"/>
     </net>
-    <net code="19" name="/OLED_DC">
-      <node ref="J3" pin="7"/>
+    <net code="6" name="/SPI_MOSI">
+      <node ref="J1" pin="3"/>
+      <node ref="J2" pin="4"/>
+      <node ref="K1" pin="13"/>
+    </net>
+    <net code="7" name="Net-(J1-Pad1)">
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="8" name="+3V3">
+      <node ref="C1" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="J1" pin="4"/>
+      <node ref="K1" pin="26"/>
+      <node ref="IC1" pin="4"/>
+      <node ref="C5" pin="1"/>
+      <node ref="L1" pin="1"/>
+      <node ref="K1" pin="4"/>
+      <node ref="IC1" pin="5"/>
+      <node ref="C8" pin="1"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="9" name="Net-(C6-Pad1)">
+      <node ref="R3" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="IC1" pin="3"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="10" name="Net-(D3-Pad2)">
+      <node ref="L1" pin="2"/>
+      <node ref="IC1" pin="1"/>
+      <node ref="D3" pin="2"/>
+    </net>
+    <net code="11" name="Net-(C10-Pad1)">
+      <node ref="K1" pin="27"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C10" pin="1"/>
+    </net>
+    <net code="12" name="/OLED_RST">
+      <node ref="K1" pin="21"/>
+      <node ref="J2" pin="9"/>
+    </net>
+    <net code="13" name="Net-(K1-Pad22)">
+      <node ref="K1" pin="22"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="14" name="/OLED_DC">
+      <node ref="J2" pin="7"/>
       <node ref="K1" pin="20"/>
     </net>
-    <net code="20" name="/OLED_RST">
-      <node ref="K1" pin="21"/>
-      <node ref="J3" pin="8"/>
+    <net code="15" name="/SPI_MISO">
+      <node ref="J2" pin="5"/>
+      <node ref="J1" pin="7"/>
     </net>
-    <net code="21" name="Net-(C13-Pad2)">
-      <node ref="C14" pin="1"/>
-      <node ref="C13" pin="2"/>
-      <node ref="K1" pin="27"/>
-    </net>
-    <net code="22" name="Net-(C4-Pad1)">
-      <node ref="K1" pin="3"/>
+    <net code="16" name="Net-(C4-Pad1)">
       <node ref="C4" pin="1"/>
+      <node ref="K1" pin="3"/>
     </net>
-    <net code="23" name="Net-(D7-Pad1)">
-      <node ref="D8" pin="2"/>
-      <node ref="D7" pin="1"/>
+    <net code="17" name="Net-(K1-Pad29)">
+      <node ref="K1" pin="29"/>
+    </net>
+    <net code="18" name="Net-(K1-Pad6)">
+      <node ref="K1" pin="6"/>
+    </net>
+    <net code="19" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="20" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="21" name="Net-(K1-Pad12)">
+      <node ref="K1" pin="12"/>
+    </net>
+    <net code="22" name="/OLED_CS">
+      <node ref="J2" pin="8"/>
+      <node ref="K1" pin="19"/>
+    </net>
+    <net code="23" name="Net-(K1-Pad5)">
+      <node ref="K1" pin="5"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="24" name="Net-(K1-Pad25)">
+      <node ref="K1" pin="25"/>
+    </net>
+    <net code="25" name="Net-(K1-Pad24)">
+      <node ref="K1" pin="24"/>
+    </net>
+    <net code="26" name="Net-(K1-Pad23)">
+      <node ref="K1" pin="23"/>
     </net>
   </nets>
 </export>

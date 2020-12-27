@@ -30,4 +30,10 @@ K
 F https://www.onsemi.com/pub/Collateral/FAN5331-D.pdf
 $ENDCMP
 #
+$CMP 693072010801
+D WURTH ELEKTRONIK - 693072010801 - Memory Card Connector, MicroSD, Hinged, 8 Contacts, Copper, Gold Plated Contacts, WR-CRD Series
+K
+F https://www.we-online.de/katalog/datasheet/693072010801.pdf
+$ENDCMP
+#
 #End Doc Library

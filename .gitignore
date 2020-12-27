@@ -3,4 +3,8 @@
 
 *.kicad_pcb-bak
 
-FAB/
+FAB/BOM/
+
+ScreenBoard/FAB/Gerber/Gerber.zip
+
+FAB/Gerber/Gerber.zip

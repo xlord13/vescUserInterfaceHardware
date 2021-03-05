@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name VESC_UI-rescue)(type Legacy)(uri C:/projects/perso/vescUserInterfaceHardware/VESC_UI-rescue.lib)(options "")(descr ""))
+  (lib (name ScreenBoard-rescue)(type Legacy)(uri ${KIPRJMOD}/ScreenBoard-rescue.lib)(options "")(descr ""))
 )

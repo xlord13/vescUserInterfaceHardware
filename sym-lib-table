@@ -1,4 +1,4 @@
 (sym_lib_table
-  (lib (name VESC_UI-rescue)(type Legacy)(uri ${KIPRJMOD}/VESC_UI-rescue.lib)(options "")(descr ""))
-  (lib (name VESC_UI-cache)(type Legacy)(uri ${USERLIB}/VESC_UI-cache.lib)(options "")(descr ""))
+  (lib (name "SamacSys_Parts")(type "KiCad")(uri "${KIPRJMOD}/library/SamacSys_Parts.kicad_sym")(options "")(descr ""))
+  (lib (name "VESC_UI-rescue")(type "Legacy")(uri "${KIPRJMOD}/VESC_UI-rescue.lib")(options "")(descr ""))
 )

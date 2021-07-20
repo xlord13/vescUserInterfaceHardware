@@ -1,3 +1,4 @@
 (fp_lib_table
-  (lib (name Lib_Kicount)(type KiCad)(uri C:/projects/Lib_Kicount)(options "")(descr ""))
+  (lib (name "Lib_Kicount")(type "KiCad")(uri "C:/projects/Lib_Kicount")(options "")(descr ""))
+  (lib (name "SamacSys_Parts")(type "KiCad")(uri "${KIPRJMOD}/library/SamacSys_Parts.pretty")(options "")(descr ""))
 )

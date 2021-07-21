@@ -3180,7 +3180,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 6fa828e8-23e0-4d93-9db3-9be7fcb49250)
   )
-  (text "VOUT = 1.23V x (1 + R3/R2)\nVOUT = 13.53V" (at 38.735 49.53 0)
+  (text "VOUT = 1.23V x (1 + R3/R2)\nVOUT = 13.53V" (at 33.655 52.07 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid eadf5b9b-d4ca-4381-ab52-20c6a4e75d1f)
   )

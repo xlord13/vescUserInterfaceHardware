@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 31.0,
-          "height": 3.8,
-          "width": 31.0
+          "drill": 1.062,
+          "height": 1.85,
+          "width": 1.85
         },
         "silk_line_width": 0.127,
         "silk_text_italic": false,
@@ -422,8 +422,8 @@
       "idf": "",
       "netlist": "VESC_UI.net",
       "specctra_dsn": "VESC_UI.dsn",
-      "step": "",
-      "vrml": ""
+      "step": "3D/VESC_UI",
+      "vrml": "3D/VESC_UI.wrl"
     },
     "page_layout_descr_file": ""
   },
@@ -442,13 +442,14 @@
       "intersheets_ref_show": false,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
+      "label_size_ratio": 0.3,
       "pin_symbol_size": 25.0,
       "text_offset_ratio": 0.3
     },
     "legacy_lib_dir": "",
     "legacy_lib_list": [],
     "meta": {
-      "version": 0
+      "version": 1
     },
     "net_format_name": "Pcbnew",
     "ngspice": {

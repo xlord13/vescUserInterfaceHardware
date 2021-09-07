@@ -1,4 +1,4 @@
-20125615384920967
+20127245685558564
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -49419,6 +49419,13 @@ SPST Button Switch
 0
 4
 2
+DVB_Buttons
+Vertical_push_button
+
+
+0
+4
+4
 DVB_Buzzers
 SO_TEST
 
@@ -79826,7 +79833,7 @@ Vertical_push_button
 
 0
 4
-3
+4
 Sensor
 Aosong_DHT11_5.5x12.0_P2.54mm
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/DHT11.pdf

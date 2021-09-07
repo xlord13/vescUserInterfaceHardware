@@ -5195,7 +5195,7 @@
     (property "Value" "R_0110" (id 1) (at 19.05 145.415 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "DVB_Resistors:R_0402" (id 2) (at 19.05 149.225 0)
+    (property "Footprint" "DVB_Resistors:R_0603" (id 2) (at 19.05 149.225 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "generic" (id 3) (at 19.05 147.32 0)
@@ -5219,7 +5219,7 @@
     (property "Value" "R_0110" (id 1) (at 24.13 145.415 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "DVB_Resistors:R_0402" (id 2) (at 24.13 149.225 0)
+    (property "Footprint" "DVB_Resistors:R_0603" (id 2) (at 24.13 149.225 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "generic" (id 3) (at 24.13 147.32 0)
@@ -5267,7 +5267,7 @@
     (property "Value" "R_0110" (id 1) (at 29.21 145.415 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "DVB_Resistors:R_0402" (id 2) (at 29.21 149.225 0)
+    (property "Footprint" "DVB_Resistors:R_0603" (id 2) (at 29.21 149.225 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "generic" (id 3) (at 29.21 147.32 0)
@@ -5291,7 +5291,7 @@
     (property "Value" "R_0110" (id 1) (at 34.29 145.415 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "DVB_Resistors:R_0402" (id 2) (at 34.29 149.225 0)
+    (property "Footprint" "DVB_Resistors:R_0603" (id 2) (at 34.29 149.225 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "generic" (id 3) (at 34.29 147.32 0)
@@ -5315,7 +5315,7 @@
     (property "Value" "R_0110" (id 1) (at 39.37 145.415 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "DVB_Resistors:R_0402" (id 2) (at 39.37 149.225 0)
+    (property "Footprint" "DVB_Resistors:R_0603" (id 2) (at 39.37 149.225 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "generic" (id 3) (at 39.37 147.32 0)
@@ -5339,7 +5339,7 @@
     (property "Value" "R_0110" (id 1) (at 44.45 145.415 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "DVB_Resistors:R_0402" (id 2) (at 44.45 149.225 0)
+    (property "Footprint" "DVB_Resistors:R_0603" (id 2) (at 44.45 149.225 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "generic" (id 3) (at 44.45 147.32 0)
@@ -7009,7 +7009,7 @@
     (property "Value" "Vertical push button" (id 1) (at 99.7458 138.938 90)
       (effects (font (size 0.9906 0.9906)) (justify right) hide)
     )
-    (property "Footprint" "SamacSys_Parts:Vertical_push_button" (id 2) (at 106.045 139.7 0)
+    (property "Footprint" "DVB_Buttons:Vertical_push_button" (id 2) (at 106.045 139.7 0)
       (effects (font (size 0.9906 0.9906)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 106.045 139.7 0)
@@ -7028,7 +7028,7 @@
     (property "Value" "Vertical push button" (id 1) (at 99.7458 171.323 90)
       (effects (font (size 0.9906 0.9906)) (justify right) hide)
     )
-    (property "Footprint" "SamacSys_Parts:Vertical_push_button" (id 2) (at 106.045 172.085 0)
+    (property "Footprint" "DVB_Buttons:Vertical_push_button" (id 2) (at 106.045 172.085 0)
       (effects (font (size 0.9906 0.9906)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 106.045 172.085 0)
@@ -7047,7 +7047,7 @@
     (property "Value" "Vertical push button" (id 1) (at 116.2558 138.938 90)
       (effects (font (size 0.9906 0.9906)) (justify right) hide)
     )
-    (property "Footprint" "SamacSys_Parts:Vertical_push_button" (id 2) (at 122.555 139.7 0)
+    (property "Footprint" "DVB_Buttons:Vertical_push_button" (id 2) (at 122.555 139.7 0)
       (effects (font (size 0.9906 0.9906)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 122.555 139.7 0)
@@ -7066,7 +7066,7 @@
     (property "Value" "Vertical push button" (id 1) (at 116.2558 171.323 90)
       (effects (font (size 0.9906 0.9906)) (justify right) hide)
     )
-    (property "Footprint" "SamacSys_Parts:Vertical_push_button" (id 2) (at 122.555 172.085 0)
+    (property "Footprint" "DVB_Buttons:Vertical_push_button" (id 2) (at 122.555 172.085 0)
       (effects (font (size 0.9906 0.9906)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 122.555 172.085 0)
@@ -7881,7 +7881,7 @@
       (reference "Q2") (unit 1) (value "Q_0020") (footprint "DVB_SOT:SOT_23")
     )
     (path "/274f8f4b-6844-4f32-8ecc-3b008e20dab4"
-      (reference "R1") (unit 1) (value "R_0110") (footprint "DVB_Resistors:R_0402")
+      (reference "R1") (unit 1) (value "R_0110") (footprint "DVB_Resistors:R_0603")
     )
     (path "/fc81d31a-d19a-45e9-b1d9-0dbd0d552d01"
       (reference "R2") (unit 1) (value "R_0034") (footprint "DVB_Resistors:R_0402")
@@ -7890,13 +7890,13 @@
       (reference "R3") (unit 1) (value "R_0110") (footprint "DVB_Resistors:R_0402")
     )
     (path "/cc694b3e-764f-4afb-a606-e4bea4e60d84"
-      (reference "R4") (unit 1) (value "R_0110") (footprint "DVB_Resistors:R_0402")
+      (reference "R4") (unit 1) (value "R_0110") (footprint "DVB_Resistors:R_0603")
     )
     (path "/73172fa1-a555-4a52-a7e5-d156d096e84c"
       (reference "R5") (unit 1) (value "R_0034") (footprint "DVB_Resistors:R_0402")
     )
     (path "/2a3fd3fe-ce9c-4f48-87f2-1e093761143a"
-      (reference "R6") (unit 1) (value "R_0110") (footprint "DVB_Resistors:R_0402")
+      (reference "R6") (unit 1) (value "R_0110") (footprint "DVB_Resistors:R_0603")
     )
     (path "/b30ecf8e-a8fc-4661-b6ea-8889d18687dc"
       (reference "R7") (unit 1) (value "R_0034") (footprint "DVB_Resistors:R_0402")
@@ -7908,10 +7908,10 @@
       (reference "R9") (unit 1) (value "R_0020") (footprint "DVB_Resistors:R_0402")
     )
     (path "/210b967b-f808-421a-b093-846820131e84"
-      (reference "R10") (unit 1) (value "R_0110") (footprint "DVB_Resistors:R_0402")
+      (reference "R10") (unit 1) (value "R_0110") (footprint "DVB_Resistors:R_0603")
     )
     (path "/1e416a78-27a3-4ff1-925a-5ba0932f03a7"
-      (reference "R11") (unit 1) (value "R_0110") (footprint "DVB_Resistors:R_0402")
+      (reference "R11") (unit 1) (value "R_0110") (footprint "DVB_Resistors:R_0603")
     )
     (path "/fc3cd660-2089-4bf6-a20f-d1d131f3fc27"
       (reference "R12") (unit 1) (value "R_0020") (footprint "DVB_Resistors:R_0402")
@@ -7923,7 +7923,7 @@
       (reference "R14") (unit 1) (value "R_0019") (footprint "DVB_Resistors:R_0402")
     )
     (path "/7146dc1d-217b-4ba2-a470-61e4a0cc9a7c"
-      (reference "R15") (unit 1) (value "R_0110") (footprint "DVB_Resistors:R_0402")
+      (reference "R15") (unit 1) (value "R_0110") (footprint "DVB_Resistors:R_0603")
     )
     (path "/c79941fd-6173-4b87-8e18-a7e29ac12dea"
       (reference "R16") (unit 1) (value "R_0020") (footprint "DVB_Resistors:R_0402")
@@ -7941,16 +7941,16 @@
       (reference "R20") (unit 1) (value "R_0020") (footprint "DVB_Resistors:R_0402")
     )
     (path "/00000000-0000-0000-0000-00005f5cdcd2"
-      (reference "SW1") (unit 1) (value "Vertical push button") (footprint "SamacSys_Parts:Vertical_push_button")
+      (reference "SW1") (unit 1) (value "Vertical push button") (footprint "DVB_Buttons:Vertical_push_button")
     )
     (path "/4c24bb6c-4be8-4832-bb7d-19e358013a23"
-      (reference "SW2") (unit 1) (value "Vertical push button") (footprint "SamacSys_Parts:Vertical_push_button")
+      (reference "SW2") (unit 1) (value "Vertical push button") (footprint "DVB_Buttons:Vertical_push_button")
     )
     (path "/4f42f5bd-6f0a-4547-86cd-71576a3d2ad3"
-      (reference "SW3") (unit 1) (value "Vertical push button") (footprint "SamacSys_Parts:Vertical_push_button")
+      (reference "SW3") (unit 1) (value "Vertical push button") (footprint "DVB_Buttons:Vertical_push_button")
     )
     (path "/05aafbf7-38b1-46f3-8fef-03cf38751b32"
-      (reference "SW4") (unit 1) (value "Vertical push button") (footprint "SamacSys_Parts:Vertical_push_button")
+      (reference "SW4") (unit 1) (value "Vertical push button") (footprint "DVB_Buttons:Vertical_push_button")
     )
     (path "/2667c678-1acb-4ac1-86df-f5db22fc0242"
       (reference "SW5") (unit 1) (value "SW_0003") (footprint "DVB_Buttons:PTS810")

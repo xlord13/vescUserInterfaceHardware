@@ -1,0 +1,16 @@
+### Module positions - created on Tue Sep  7 13:39:25 2021 ###
+### Printed by Pcbnew version 5.99.0-unknown-0e3c79d3b2~131~ubuntu20.04.1
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val              Package                                PosX       PosY       Rot  Side
+J1        Hall_DRV5055-Q1  TO-92Flat                           -1.2500    24.0000   90.0000  bottom
+J2        Hall_DRV5055-Q1  TO-92Flat                          -48.7500    26.5000  -90.0000  bottom
+K1        K_0051-OBSOLETE  OLED128x128-1P5                    -11.5810    25.0250   90.0000  bottom
+R1        R_0110           R_0603                              -8.9000    45.2000  -90.0000  bottom
+R4        R_0110           R_0603                             -40.0000    45.2000  -90.0000  bottom
+R6        R_0110           R_0603                             -47.8000    45.2000  -90.0000  bottom
+R10       R_0110           R_0603                             -16.7000    45.2000  -90.0000  bottom
+R11       R_0110           R_0603                             -24.5000    45.2000  -90.0000  bottom
+R13       NSL-19M51        R_LDR_4.9x4.2mm_P2.54mm_Vertical   -45.1000    32.7000  -90.0000  bottom
+R15       R_0110           R_0603                             -32.3000    45.2000  -90.0000  bottom
+## End

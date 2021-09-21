@@ -1,5 +1,5 @@
-### Module positions - created on Tue Sep  7 13:39:25 2021 ###
-### Printed by Pcbnew version 5.99.0-unknown-0e3c79d3b2~131~ubuntu20.04.1
+### Module positions - created on Tue Sep 21 11:43:10 2021 ###
+### Printed by Pcbnew version 5.99.0-unknown-a71d856e94~131~ubuntu20.04.1
 ## Unit = mm, Angle = deg.
 ## Side : top
 # Ref     Val                   Package                                          PosX       PosY       Rot  Side
@@ -70,6 +70,9 @@ R17       R_0001                R_0402                                         4
 R18       R_0001                R_0402                                        45.9000    25.7000   90.0000  top
 R19       R_0020                R_0402                                        43.3000     6.2000  180.0000  top
 R20       R_0020                R_0402                                        44.6000    28.0000    0.0000  top
+REF1      CircleWhite1mm        REF_1mm                                        1.7500     7.7500    0.0000  top
+REF2      CircleWhite1mm        REF_1mm                                       48.2500     7.5000    0.0000  top
+REF3      CircleWhite1mm        REF_1mm                                       47.2500    43.0000    0.0000  top
 SW1       Vertical_push_button  Vertical_push_button                           5.6500     3.8020    0.0000  top
 SW2       Vertical_push_button  Vertical_push_button                          18.5500     3.8020    0.0000  top
 SW3       Vertical_push_button  Vertical_push_button                          31.4500     3.8020    0.0000  top

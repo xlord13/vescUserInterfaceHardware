@@ -1,5 +1,5 @@
-### Module positions - created on Tue Sep 21 11:43:10 2021 ###
-### Printed by Pcbnew version 5.99.0-unknown-a71d856e94~131~ubuntu20.04.1
+### Module positions - created on mer. 13 oct. 2021 14:21:59 ###
+### Printed by Pcbnew version 5.99.0-unknown-1b7358f93a~142~ubuntu20.04.1
 ## Unit = mm, Angle = deg.
 ## Side : top
 # Ref     Val                   Package                                          PosX       PosY       Rot  Side
@@ -54,6 +54,7 @@ J5        Conn_01x05_Male       JST_PH_B5B-PH-K_1x05_P2.00mm_Vertical         41
 J6        Conn_01x04_Male       JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical         35.5000    10.0000    0.0000  top
 J8        Conn_01x02_Male       JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical         17.5000    39.2500  180.0000  top
 J9        Conn_01x02_Male       JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical         24.5500    39.2500  180.0000  top
+K1        K_0051-OBSOLETE       OLED128x128-1P5                               13.0000    25.0250  -90.0000  top
 L1        L_0006                L_4012-Wurth                                  26.1000    26.1000  180.0000  top
 Q1        Q_0020                SOT_23                                        42.0000    35.1000   90.0000  top
 Q2        Q_0020                SOT_23                                        29.0000    40.7750   90.0000  top
